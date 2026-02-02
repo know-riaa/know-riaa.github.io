@@ -8,17 +8,31 @@ function App() {
 
   return (
     <>
-      <div className='font-big pt-[14rem] pl-[2rem] text-[2rem] items-center lg:pt-24 lg:pl-20  lg:text-[12rem] lg:leading-[13rem]'>
-        RIA THAPA.<br></br>
-        FULL STACK ENGINEER.<br></br>
-        <span className='text-brand-red'>AI ORCHESTRATIONS.</span>
+      <div className='min-h-screen overflow-x-hidden text-white border'>
+        <div className='text-5xl font-big leading-none pt-24 pl-8
+        md:text-9xl'>
+          RIA THAPA.<br></br>
+          FULL STACK DEVELOPER.<br></br>
+          <span className='text-red-500'>AI ORCHESTRATIONS.</span>
+        </div>
+        <br></br>
+        <div className='flex gap-8 md:gap-16 font-big text-3xl 
+        ml-8 md:text-6xl md:mt-8 w-fit'>
+          <a href='https://www.linkedin.com/in/riathapa/' target='_blank' className=' 
+        hover:text-red-500 hover:underline hover:underline-offset-4
+        '>
+          LINKEDiN</a>
+          <a href='https://github.com/know-riaa' target='_blank' className='
+        hover:text-red-500 hover:underline hover:underline-offset-4
+        '>GITHUB</a>
+        </div>
+
+        <img src='/src/assets/icon.png'
+        className='mt-12 mx-auto rounded-full aspect-square w-32
+        md:absolute md:w-96 md:right-52 md: bottom-36'></img>
+        
+
       </div>
-      <br></br>
-      <a
-        href='https://www.linkedin.com/in/riathapa/'
-        target='_blank' 
-        className='w-fit font-big text-[1.2rem] pl-[2rem] block lg:pt-12 lg:text-[4rem] lg:pl-20
-       hover:text-brand-red hover:underline'>LINKED IN</a>
     </>
   );
 }
