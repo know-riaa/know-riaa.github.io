@@ -2,6 +2,7 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import icon from './assets/icon.png'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -27,7 +28,7 @@ function App() {
         '>GITHUB</a>
         </div>
 
-        <img src='/src/assets/icon.png'
+        <img src={icon}
         className='mt-12 mx-auto rounded-full aspect-square w-32
         md:absolute md:w-96 md:right-52 md: bottom-36'></img>
         
