@@ -1,0 +1,7 @@
+body {
+    cursor: url('../public/sb.png') 12 12, auto;
+    /* cursor: crosshair; */
+}
+a, button {
+    cursor: url('../public/sb.png') 12 12, auto;
+}
